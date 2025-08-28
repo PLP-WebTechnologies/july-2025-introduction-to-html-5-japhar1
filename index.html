@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern HTML5 semantic web page demonstrating accessibility and SEO best practices for web development.">
+    <meta name="keywords" content="HTML5, semantic web, accessibility, SEO, web development">
+    <meta name="author" content="Web Developer">
+    <title>Modern HTML5 Semantic Web Page | Accessibility & SEO</title>
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header section -->
+    <header role="banner">
+        <h1>Web Development Best Practices</h1>
+        <p>Semantic HTML5, Accessibility, and SEO</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <h2 class="visually-hidden">Main Navigation</h2>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#semantics">HTML5 Semantics</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+            <li><a href="#seo">SEO Techniques</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main id="main-content" role="main">
+        <!-- Introduction section -->
+        <section id="intro" aria-labelledby="intro-heading">
+            <header>
+                <h2 id="intro-heading">Introduction to Modern Web Development</h2>
+                <p>Building websites with structure, accessibility, and discoverability in mind</p>
+            </header>
+            
+            <article>
+                <h3>Why Semantic HTML Matters</h3>
+                <p>Semantic HTML provides meaning to web content, making it more accessible and SEO-friendly. By using elements that describe their purpose, we create better experiences for both users and search engines.</p>
+                
+                <h3>Key Benefits</h3>
+                <ul>
+                    <li>Improved accessibility for assistive technologies</li>
+                    <li>Better search engine visibility</li>
+                    <li>Easier code maintenance</li>
+                    <li>Enhanced user experience</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- HTML5 Semantics section -->
+        <section id="semantics" aria-labelledby="semantics-heading">
+            <h2 id="semantics-heading">HTML5 Semantic Elements</h2>
+            
+            <article>
+                <h3>Common Semantic Tags</h3>
+                <p>HTML5 introduced several new semantic elements that help define the structure of web pages:</p>
+                
+                <dl>
+                    <dt><code>&lt;header&gt;</code></dt>
+                    <dd>Represents introductory content or a set of navigational links</dd>
+                    
+                    <dt><code>&lt;nav&gt;</code></dt>
+                    <dd>Defines a section of navigation links</dd>
+                    
+                    <dt><code>&lt;main&gt;</code></dt>
+                    <dd>Specifies the main content of a document</dd>
+                    
+                    <dt><code>&lt;section&gt;</code></dt>
+                    <dd>Defines a section in a document</dd>
+                    
+                    <dt><code>&lt;article&gt;</code></dt>
+                    <dd>Represents self-contained content</dd>
+                    
+                    <dt><code>&lt;aside&gt;</code></dt>
+                    <dd>Defines content aside from the main content</dd>
+                    
+                    <dt><code>&lt;footer&gt;</code></dt>
+                    <dd>Represents a footer for its nearest sectioning content</dd>
+                </dl>
+            </article>
+            
+            <article>
+                <h3>Proper Document Structure</h3>
+                <p>Using these elements correctly creates a clear document outline that helps both browsers and assistive technologies understand your content.</p>
+                
+                <figure>
+                    <figcaption>Example of a well-structured HTML5 document:</figcaption>
+                    <pre>
+&lt;header&gt;
+    &lt;h1&gt;Page Title&lt;/h1&gt;
+    &lt;nav&gt;...&lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+    &lt;section&gt;
+        &lt;h2&gt;Section Heading&lt;/h2&gt;
+        &lt;article&gt;
+            &lt;h3&gt;Article Heading&lt;/h3&gt;
+            &lt;p&gt;Content...&lt;/p&gt;
+        &lt;/article&gt;
+    &lt;/section&gt;
+&lt;/main&gt;
+&lt;footer&gt;...&lt;/footer&gt;
+                    </pre>
+                </figure>
+            </article>
+        </section>
+
+        <!-- Accessibility section -->
+        <section id="accessibility" aria-labelledby="accessibility-heading">
+            <h2 id="accessibility-heading">Web Accessibility Best Practices</h2>
+            
+            <article>
+                <h3>Making Content Accessible</h3>
+                <p>Web accessibility ensures that people with disabilities can perceive, understand, navigate, and interact with websites.</p>
+                
+                <h4>Key Accessibility Considerations:</h4>
+                <ul>
+                    <li>Use semantic HTML for proper structure</li>
+                    <li>Provide text alternatives for non-text content</li>
+                    <li>Ensure sufficient color contrast</li>
+                    <li>Make all functionality available from a keyboard</li>
+                    <li>Help users navigate and find content</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>ARIA Landmarks and Roles</h3>
+                <p>ARIA (Accessible Rich Internet Applications) provides additional semantic information to assistive technologies.</p>
+                
+                <h4>Common ARIA Attributes:</h4>
+                <ul>
+                    <li><strong>role</strong>: Defines the purpose of an element (e.g., role="banner", role="navigation")</li>
+                    <li><strong>aria-label</strong>: Provides a text label for an element</li>
+                    <li><strong>aria-labelledby</strong>: References other elements that label the current element</li>
+                    <li><strong>aria-describedby</strong>: References other elements that describe the current element</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- SEO section -->
+        <section id="seo" aria-labelledby="seo-heading">
+            <h2 id="seo-heading">Search Engine Optimization Basics</h2>
+            
+            <article>
+                <h3>On-Page SEO Techniques</h3>
+                <p>SEO helps search engines understand your content and rank it appropriately in search results.</p>
+                
+                <h4>HTML Elements That Impact SEO:</h4>
+                <ul>
+                    <li>Title tags (&lt;title&gt;) - shown in search results</li>
+                    <li>Meta description - the snippet under the title in search results</li>
+                    <li>Heading tags (&lt;h1&gt; to &lt;h6&gt;) - indicate content hierarchy</li>
+                    <li>Semantic structure - helps search engines understand content relationships</li>
+                    <li>Alt text for images - provides context for image content</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Proper Heading Hierarchy</h3>
+                <p>Headings create a logical structure for your content. Follow these guidelines:</p>
+                
+                <ol>
+                    <li>Use only one &lt;h1&gt; per page for the main title</li>
+                    <li>Maintain a logical order without skipping levels</li>
+                    <li>Use headings to create a clear content outline</li>
+                    <li>Ensure headings accurately describe the content that follows</li>
+                </ol>
+            </article>
+        </section>
+
+        <!-- Conclusion section -->
+        <section id="conclusion" aria-labelledby="conclusion-heading">
+            <h2 id="conclusion-heading">Conclusion</h2>
+            
+            <article>
+                <h3>Key Takeaways</h3>
+                <p>Building modern websites requires attention to semantic structure, accessibility, and search engine optimization.</p>
+                
+                <ul>
+                    <li>Semantic HTML provides meaning and structure to your content</li>
+                    <li>Accessibility ensures your website can be used by everyone</li>
+                    <li>SEO techniques help your content be discovered</li>
+                    <li>These practices work together to create better web experiences</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Continue Learning</h3>
+                <p>Web standards evolve constantly. Stay updated with resources from:</p>
+                
+                <ul>
+                    <li><a href="https://www.w3.org/" aria-label="World Wide Web Consortium">W3C</a></li>
+                    <li><a href="https://webaim.org/" aria-label="Web Accessibility In Mind">WebAIM</a></li>
+                    <li><a href="https://developers.google.com/search/docs" aria-label="Google Search Central Documentation">Google Search Central</a></li>
+                    <li><a href="https://developer.mozilla.org/" aria-label="Mozilla Developer Network">MDN Web Docs</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <!-- Aside for related content -->
+    <aside aria-labelledby="aside-heading">
+        <h2 id="aside-heading">Related Resources</h2>
+        
+        <section>
+            <h3>Further Reading</h3>
+            <ul>
+                <li><a href="#">HTML5 Semantic Elements Guide</a></li>
+                <li><a href="#">Web Accessibility Checklist</a></li>
+                <li><a href="#">SEO Best Practices for Developers</a></li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Practice Tools</h3>
+            <ul>
+                <li><a href="#">HTML5 Validator</a></li>
+                <li><a href="#">Accessibility Evaluation Tool</a></li>
+                <li><a href="#">SEO Audit Checklist</a></li>
+            </ul>
+        </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <h2 class="visually-hidden">Page Footer</h2>
+        
+        <section>
+            <h3>About This Page</h3>
+            <p>This demonstration page showcases modern HTML5 semantic structure, accessibility features, and SEO best practices.</p>
+        </section>
+        
+        <section>
+            <h3>Connect</h3>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </section>
+        
+        <section>
+            <p>&copy; 2023 Web Developer. Created for educational purposes.</p>
+            <p>Last updated: <time datetime="2023-11-02">November 2, 2023</time></p>
+        </section>
+    </footer>
+</body>
+</html>
